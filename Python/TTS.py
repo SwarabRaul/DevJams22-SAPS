@@ -4,7 +4,6 @@ engine = pyttsx3.init()
 
 # Rates
 rate = engine.getProperty('rate')
-print(rate)
 engine.setProperty('rate', 125)
 
 # Voice
