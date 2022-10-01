@@ -5,7 +5,7 @@ from colorblind import colorblind
 import matplotlib.pyplot as plt
 
 # load image
-img = cv2.imread('./Images/App2.png')
+img = cv2.imread('./Images/eight.jpg')
 img = img[..., ::-1]
 
 # simulate protanopia

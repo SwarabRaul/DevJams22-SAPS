@@ -14,4 +14,5 @@ def main():
             print("Error: " + str(e))
 
 if __name__ == "__main__":
-    main()
+    while(1):
+        main()
