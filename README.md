@@ -52,7 +52,7 @@ Before we go further into detail, let's see a few problems that these people fac
 ### **Color Blindness**
 
 - We are using a python module called ["colorBlind"](https://pypi.org/project/colorblind/).
-- This module helps us convert and image to a color blind friendly output, which a color blind a can see, and differentiat the deatils much clearly.
+- This module helps us convert the image to a color blind friendly output, which a color blind a can see, and differentiat the deatils much clearly.
 - At the current stage we are only supporting 3 varients of color blindness:
     - Deuteranopia (Red - Green weakness, particularly green)
     - Protanopia (Red - Green weakness, particulary red)
@@ -74,7 +74,7 @@ Before we go further into detail, let's see a few problems that these people fac
 
 - We are using a python module called ["SpeechRecognition"](https://pypi.org/project/SpeechRecognition/).
 - This module helps us convert speech to text,
-- We can also help people with motor impaorment, as they face the difficulty of using their hands. Hence, by using this, they would be able to enjoy texting, typing notes, etc.
+- We can also help people with motor impairment, as they face the difficulty of using their hands. Hence, by using this, they would be able to enjoy texting, typing notes, etc.
 
 <br>
 
