@@ -2,7 +2,7 @@
 import numpy as np
 import cv2
 from colorblind import colorblind
-import matplotlib.pyplot as plt
+import matplotliwb.pyplot as plt
 
 # load image
 img = cv2.imread('./Images/tiger.jpeg')
@@ -10,6 +10,7 @@ img = img[..., ::-1]
 
 # simulate protanopia
 simulated_img = colorblind.simulate_colorblindness(img, colorblind_type='protanopia')
+
 cv2.imwrite('pro_tiger.jpeg', simulated_img)
 
 
